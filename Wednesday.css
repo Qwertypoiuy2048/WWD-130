@@ -1,0 +1,17 @@
+h3 {
+  color: #ff0000;
+}
+body {
+  background-color: rgba(20, 0, 255, 0.486);
+}
+h1 {
+  color: purple;
+  font-size: 90px;
+  margin: 4px 2px;
+}
+.fancy {
+  padding: 50px;
+  border: blue;
+  border-width: thick;
+  border-style: double;
+}
