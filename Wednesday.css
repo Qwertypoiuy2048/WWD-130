@@ -2,16 +2,24 @@ h3 {
   color: #ff0000;
 }
 body {
-  background-color: rgba(20, 0, 255, 0.486);
+  background-color: rgba(200, 200, 200, 0.486);
 }
 h1 {
   color: purple;
   font-size: 90px;
   margin: 4px 2px;
 }
-.fancy {
+#forjava {
+}
+.forcss {
   padding: 50px;
   border: blue;
   border-width: thick;
   border-style: double;
+}
+.div {
+  background-color: burlywood;
+}
+button {
+  margin: 12px 12px;
 }
