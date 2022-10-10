@@ -1,0 +1,48 @@
+.top {
+  width: 25%;
+  background-color: red;
+  margin: 0 auto;
+  padding: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+.middle {
+  width: 50%;
+  background-color: blue;
+  margin: 0 auto;
+  padding: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+.bottom {
+  width: 80%;
+  background-color: green;
+  margin: 0 auto;
+  padding: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+div {
+  margin: 0 auto;
+}
+/* p {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+} */
+.purple {
+  display: inline-block;
+  background-color: purple;
+  padding: 40px;
+}
+.left {
+  margin: 3px 30% 10px 10%;
+}
+.right {
+  margin: 3px 10% 10px 30%;
+}
+.legs {
+  background-color: bisque;
+  text-align: center;
+}
