@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+h1 {
+  font-family: "IM Fell French Canon";
+}
+h2 {
+  margin: 0;
+}
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Lato, Helvetica, sans-serif;
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,6 +21,7 @@ nav a {
   text-decoration: none;
   color: #eed381;
   text-align: center;
+  padding: 35px;
 }
 nav a:hover {
   color: #eed381;
@@ -13,20 +29,26 @@ nav a:hover {
 }
 #hero-msg h1 {
   text-align: center;
+  font-family: "IM Fell French Canon";
 }
 #hero-msg h4 {
   text-align: center;
+  font-family: Lato, Helvetica, sans-serif;
 }
 .msg {
   background-color: #0b132b;
   color: #fff;
+  line-height: 1.5em;
+  padding: 35px;
 }
 /* .msg h2 {
   color: #fff;
-}
+} */
 .msg p {
-  color: #fff;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
+/*
 .msg a {
   margin: 3;
   padding: 3;
@@ -51,6 +73,9 @@ section {
 }
 body {
   background-color: #ffffff;
+  font-family: Lato, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #396e94;
@@ -59,6 +84,10 @@ header {
   color: #000;
   text-decoration: none;
   background-color: #eed381;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover {
   color: #eed381;
@@ -68,6 +97,10 @@ header {
   text-decoration: none;
   color: #0b132b;
   background-color: #eed381;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .join:hover {
   color: #eed381;
@@ -76,6 +109,8 @@ header {
 footer {
   color: #eed381;
   background-color: #396e94;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a {
   text-decoration: none;
@@ -90,4 +125,28 @@ footer p a:hover {
 }
 .logo {
   width: 80px;
+}
+.home-title {
+  font-size: 2em;
+  margin-top: 10px;
+}
+#logo_link {
+  padding-top: 5px;
+}
+.icon {
+  padding-top: 10px;
+}
+footer .social img {
+  padding-top: 15px;
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
+main section img {
+  box-sizing: border-box;
 }

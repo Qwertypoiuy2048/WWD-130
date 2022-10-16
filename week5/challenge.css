@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+.image-cropper {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-rounder {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
+  border: 8px solid rgb(66, 62, 62);
+  margin: 3%;
+}
+.background {
+  background-color: gray;
+  text-align: center;
+}
+.hero {
+  width: 100%;
+}
