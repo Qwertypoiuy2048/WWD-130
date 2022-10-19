@@ -1,11 +1,11 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 500px;
+  width: 650px;
   margin: auto;
 }
 .img {
-  width: 250px;
+  width: 300px;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -18,10 +18,30 @@
   grid-row-end: 2;
   z-index: 1;
   text-align: center;
+  font-size: 87px;
+  letter-spacing: 6px;
+  font-weight: bold;
 }
 .smalltext {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #9c0e11;
+  z-index: 1;
+}
+.background {
+  background-color: lightgray;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.ICEimg {
+  width: 650px;
+  margin: auto;
 }
