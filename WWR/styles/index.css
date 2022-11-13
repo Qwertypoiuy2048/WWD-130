@@ -5,6 +5,7 @@ h1 {
 }
 h2 {
   margin: 0;
+  text-align: center;
 }
 h3,
 h4,
@@ -216,13 +217,30 @@ p {
   font-family: Lato, Helvetica, sans-serif;
   font-size: 20px;
 }
-.Salmon {
-}
-.Desolation {
+.salmon {
   float: left;
-  width: 50%;
 }
-.Grand {
+.desolation {
+  float: right;
+}
+.grand {
+  float: left;
+}
+.image {
+  width: 50%;
+  border-radius: 15px;
+  border-color: #000;
+  border-style: double;
+}
+.salmon_head {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.desolation_head {
+  margin-top: 130px;
+}
+.grand_head {
+  margin-top: 200px;
 }
 
 @media screen and (max-width: 900px) {
