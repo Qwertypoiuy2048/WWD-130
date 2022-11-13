@@ -9,8 +9,7 @@ h2 {
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   font-family: Lato, Helvetica, sans-serif;
 }
 #content {
@@ -209,6 +208,23 @@ main section img {
   grid-row: 5/8;
   box-shadow: 5px 5px 10px #6f7364;
 }
+.strike {
+  text-decoration: line-through;
+}
+/* This is the start of Page 2 */
+p {
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Salmon {
+}
+.Desolation {
+  float: left;
+  width: 50%;
+}
+.Grand {
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
