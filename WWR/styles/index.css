@@ -231,6 +231,8 @@ p {
   border-radius: 15px;
   border-color: #000;
   border-style: double;
+  margin: 3px;
+  padding: 3px;
 }
 .salmon_head {
   margin-top: 15px;
